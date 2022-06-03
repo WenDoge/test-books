@@ -1,0 +1,36 @@
+.main {
+	padding-top: 5em;
+	background-color: var(--custom-gray);
+	min-height: calc(100% - 112px);
+}
+.books-wrapper {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-evenly;
+}
+.notification {
+	padding: 1em;
+	background-color: var(--custom-bisque);
+	width: 250px;
+	position: absolute;
+	z-index: 30;
+	top: calc(50% - 38px);
+	left: calc(50% - 125px);
+	text-align: center;
+	border-radius: 2px;
+}
+.books-wrapper__add {
+	background-color: transparent;
+	background-position: center;
+	background-size: cover;
+	background-image: url('../../assets/plus-symbol-button.png');
+	align-self: center;
+	margin: 1em;
+	width: 100px;
+	height: 100px;
+}
+.books-wrapper__add:hover {
+	background-image: url('../../assets/plus-symbol-button-gray.png');
+}
+.books-wrapper-addForm {
+}

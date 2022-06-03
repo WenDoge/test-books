@@ -1,0 +1,25 @@
+.header {
+	padding: 1em;
+	background-color: var(--custom-bisque);
+}
+.header-logo {
+	display: flex;
+	align-items: center;
+}
+.header-logo__img {
+	background-image: url('../../assets/logo-social.png');
+	background-position: center;
+	background-size: cover;
+	height: 80px;
+	width: 80px;
+	border-radius: 1em;
+	margin-right: 1.5em;
+}
+.header__text {
+	display: block;
+	font-size: 2em;
+}
+.header-logo__link {
+	text-decoration: none;
+	color: black;
+}
